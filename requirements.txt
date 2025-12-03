@@ -1,0 +1,6 @@
+llama-cpp-python
+gradio
+pydantic
+sentence-transformers
+pandas
+plotly
