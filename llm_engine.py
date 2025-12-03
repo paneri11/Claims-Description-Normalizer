@@ -2,7 +2,7 @@ from typing import List, Optional
 from llama_cpp import Llama
 
 # Path to your GGUF model (update this path as per your system)
-MODEL_PATH = "models/mistral-7b-instruct.Q4_0.gguf"
+MODEL_PATH = "models\mistral-7b-instruct-v0.2.Q4_K_M.gguf"
 
 # Singleton-style global LLM instance
 _llm: Optional[Llama] = None

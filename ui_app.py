@@ -182,7 +182,6 @@ with gr.Blocks(title="Claims Description Normalizer (Offline GenAI)") as demo:
                     json_output = gr.Textbox(
                         label="JSON output",
                         lines=10,
-                        show_copy_button=True,
                     )
 
             def fill_example(example_text):
@@ -228,4 +227,4 @@ with gr.Blocks(title="Claims Description Normalizer (Offline GenAI)") as demo:
             )
 
 if __name__ == "__main__":
-    demo.launch(server_name="0.0.0.0", server_port=7860)
+    demo.launch()
