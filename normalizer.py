@@ -96,7 +96,7 @@ def normalize_claim(claim_text: str) -> ClaimAttributes:
     Main function: takes free-text claim, returns structured ClaimAttributes.
     """
     prompt = PROMPT_TEMPLATE.format(claim_text=claim_text.strip())
-    llm_output = generate_completion(prompt, max_tokens=256, temperature=0.1)
+    llm_output = generate_completion(prompt, max_tokens=128, temperature=0.1)
     parsed = _safe_parse_json(llm_output)
 
     # Use Pydantic to apply defaults for missing fields
