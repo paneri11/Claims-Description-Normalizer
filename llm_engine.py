@@ -2,7 +2,7 @@ from typing import List, Optional
 from llama_cpp import Llama
 
 
-MODEL_PATH = "models/mistral-7b-instruct-v0.2.Q2_K.gguf"
+MODEL_PATH = "models\mistral-7b-instruct-v0.2.Q4_K_M.gguf"
 
 _llm: Optional[Llama] = None
 
