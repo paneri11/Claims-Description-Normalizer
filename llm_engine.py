@@ -1,8 +1,7 @@
 from typing import List, Optional
 from llama_cpp import Llama
 
-# 👉 IMPORTANT: put your actual GGUF path here.
-# Use the Q4 model that was working for you earlier.
+
 MODEL_PATH = "models\mistral-7b-instruct-v0.2.Q2_K.gguf"
 
 _llm: Optional[Llama] = None
