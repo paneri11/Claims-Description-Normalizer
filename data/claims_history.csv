@@ -16,3 +16,5 @@ timestamp,claim_text,loss_type,severity,asset,estimated_loss,incident_date,locat
 2025-12-04T11:24:35,"Water leakage from bathroom pipeline seeped into the bedroom wall, paint and plaster damaged.",Water Damage,Medium,Building,Unknown,Unknown,Unknown,Medium,Water damage to a building with affected areas including the bedroom wall.
 2025-12-04T11:33:59,"Car accident on main road, rear bumper damaged and minor scratches on door. No injuries reported.",Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Not provided
 2025-12-04T12:31:08,"Fire in living room due to short circuit, sofa and TV unit completely burnt.",Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Not provided
+2025-12-04T13:25:23,My 70 kg chicken got burnt in a crisp,Fire,High,Chicken,Unknown,Unknown,Unknown,Medium,This claim describes a high severity loss event involving a chicken that was burnt.
+2025-12-04T13:57:38,"Car accident on narendra nagar road, nagpur. rear bumper damaged and minor scratches on door. happened today. estimated loss i feel is around 17000",Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Not provided
