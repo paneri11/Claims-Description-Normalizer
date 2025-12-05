@@ -4,3 +4,4 @@ pydantic
 sentence-transformers
 pandas
 plotly
+pypdf==5.0.0

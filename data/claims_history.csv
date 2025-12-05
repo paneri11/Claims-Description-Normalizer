@@ -18,3 +18,6 @@ timestamp,claim_text,loss_type,severity,asset,estimated_loss,incident_date,locat
 2025-12-04T12:31:08,"Fire in living room due to short circuit, sofa and TV unit completely burnt.",Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Not provided
 2025-12-04T13:25:23,My 70 kg chicken got burnt in a crisp,Fire,High,Chicken,Unknown,Unknown,Unknown,Medium,This claim describes a high severity loss event involving a chicken that was burnt.
 2025-12-04T13:57:38,"Car accident on narendra nagar road, nagpur. rear bumper damaged and minor scratches on door. happened today. estimated loss i feel is around 17000",Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Not provided
+2025-12-04T20:32:58,"Fire in living room due to short circuit, sofa and TV unit completely burnt.",Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Unknown,Not provided
+2025-12-04T20:44:34,"Mobile phone slipped from hand, screen shattered and back panel cracked.",Device,Medium,Mobile phone,Unknown,Unknown,Unknown,Medium,"A mobile phone was dropped, resulting in a damaged screen and back panel."
+2025-12-04T20:53:59,"Car accident on main road, rear bumper damaged and minor scratches on door. No injuries reported.",Vehicle,Low,Car,Unknown,Unknown,Main road (unspecified),High,Minor vehicle damage to a car's rear bumper and door with no reported injuries.

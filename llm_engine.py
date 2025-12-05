@@ -17,8 +17,10 @@ def get_llm() -> Llama:
         print("[LLM] Loading model from:", MODEL_PATH)
         _llm = Llama(
             model_path=MODEL_PATH,
-            n_ctx=4096,       # same as your original
-            n_gpu_layers=35,  # ✅ use GPU (like original app (1).py)
+            n_ctx=2048,       
+            n_gpu_layers=-1,   
+            n_threads=8,       
+            n_batch=512,       
             verbose=False,
         )
         print("[LLM] Model loaded successfully.")
